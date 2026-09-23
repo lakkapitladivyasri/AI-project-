@@ -1,0 +1,23 @@
+{
+  "run_timestamp": "2026-08-27T06:36:16.183107+00:00",
+  "forecast_horizon_days": 30,
+  "opening_balance": 1244290.11,
+  "cash_risk_threshold": 1150000.0,
+  "flagged_days_count": 5,
+  "flagged_dates": [
+    "2026-07-01",
+    "2026-07-02",
+    "2026-07-03",
+    "2026-07-04",
+    "2026-07-05"
+  ],
+  "evaluation_against_held_out_actuals": {
+    "days_evaluated": 30,
+    "mae": 12555.45,
+    "mape_pct": 1.03,
+    "bias": 10865.26,
+    "final_day_forecast_balance": 1496478.84,
+    "final_day_actual_balance": 1492678.37,
+    "pct_days_within_confidence_band": 63.3
+  }
+}
